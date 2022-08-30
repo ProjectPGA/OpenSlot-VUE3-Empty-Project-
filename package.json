@@ -1,0 +1,41 @@
+{
+  "name": "my-vue-app",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "format": "prettier --write \"./**/*.?(vue|ts|js|scss|html|cjs|json)\"",
+    "format:check": "prettier --list-different \"./**/*.?(vue|ts|js|scss|html|cjs|json)\"",
+    "lint": "eslint src --ext .ts,.vue",
+    "lint:scss": "npx stylelint \"./**/*.scss\""
+  },
+  "dependencies": {
+    "bulma": "^0.9.4",
+    "node-sass": "^7.0.1",
+    "pinia": "^2.0.21",
+    "sass": "^1.54.5",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.35.1",
+    "@typescript-eslint/parser": "^5.35.1",
+    "@vitejs/plugin-vue": "^3.0.3",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "@vue/eslint-config-typescript": "^11.0.0",
+    "eslint": "^8.23.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.4.0",
+    "prettier": "^2.7.1",
+    "stylelint": "^14.11.0",
+    "stylelint-config-prettier-scss": "^0.0.1",
+    "stylelint-config-standard-scss": "^5.0.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.8.2",
+    "vite": "^3.0.9",
+    "vue-eslint-parser": "^9.0.3",
+    "vue-tsc": "^0.40.4"
+  }
+}
