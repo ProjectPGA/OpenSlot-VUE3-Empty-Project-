@@ -1,0 +1,11 @@
+/* Mixin for padding-top and padding-bottom */
+@mixin padding-y($size) {
+  padding-top: $size;
+  padding-bottom: $size;
+}
+
+/* Mixin for padding-left and padding-right */
+@mixin padding-x($size) {
+  padding-left: $size;
+  padding-right: $size;
+}

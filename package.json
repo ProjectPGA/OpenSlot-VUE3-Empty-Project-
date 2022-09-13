@@ -8,6 +8,7 @@
     "preview": "vite preview",
     "format": "prettier --write \"./**/*.?(vue|ts|js|scss|html|cjs|json)\"",
     "format:check": "prettier --list-different \"./**/*.?(vue|ts|js|scss|html|cjs|json)\"",
+    "format:scss": "npx stylelint \"./**/*.scss\" --fix",
     "lint": "eslint src --ext .ts,.vue",
     "lint:scss": "npx stylelint \"./**/*.scss\"",
     "test:unit": "jest",

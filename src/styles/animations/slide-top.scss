@@ -1,0 +1,15 @@
+/**
+ * ----------------------------------------
+ * animation slide-top
+ * ----------------------------------------
+ */
+
+@keyframes slide-top {
+  0% {
+    transform: translateY(12.5em);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}

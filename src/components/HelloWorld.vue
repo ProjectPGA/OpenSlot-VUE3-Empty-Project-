@@ -2,7 +2,7 @@
   <h1>{{ msg }}</h1>
 
   <div class="card">
-    <button class="button is-primary" type="button" @click="counter.increment">
+    <button class="button is-danger" type="button" @click="counter.increment">
       count is {{ counter.count }}
     </button>
   </div>
