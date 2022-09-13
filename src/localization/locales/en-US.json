@@ -1,0 +1,23 @@
+{
+  "views": {
+    "maintenancePage": {},
+    "home": {}
+  },
+  "common": {
+    "components": {
+      "helloWorld": {
+        "count": "Count is: {counter}"
+      }
+    },
+    "title": {
+      "home": "Home",
+      "about": "About"
+    },
+    "subtitle": {},
+    "languages": {
+      "spanish": "Spanish",
+      "english": "English"
+    },
+    "errors": {}
+  }
+}

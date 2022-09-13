@@ -1,9 +1,9 @@
 <template>
   <h1>{{ msg }}</h1>
 
-  <div class="card">
+  <div class="card p-3 m-3">
     <button class="button is-danger" type="button" @click="counter.increment">
-      count is {{ counter.count }}
+      {{ $t('common.components.helloWorld.count', { counter: counter.count }) }}
     </button>
   </div>
 </template>
